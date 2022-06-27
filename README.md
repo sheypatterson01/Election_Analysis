@@ -9,9 +9,15 @@ A Colorado Board of Elections employee gave me the following tasks to complete a
 ## Resources:
 - Data Source: election_results.csv
 - Software: Python 3.6.7, Visual Studio Code,1.68.1
-## Summary:
+## Election Audit Results:
 The analysis of the election shows that
 - There were 369,711 votes cast in the election.
+- The results for each county:
+  - Jefferson: 10.5% (38,855)
+  - Denver: 82.8% (306,055)
+  - Arapahoe: 6.7% (24,801)
+- The larges county turnout:
+  - Denver
 - The candiates were:
   - Charles Casper Stockham
   - Diana DeGette
@@ -24,7 +30,13 @@ The analysis of the election shows that
   - Diana DeGette
     Winning Vote Count: 272,892
     Winning Percentage: 73.8%
-## Challenge Overview
-## Challenge Summary
-  
-  
+    
+    
+This data is also shown in the image below:
+
+<img width="271" alt="Election results" src="https://user-images.githubusercontent.com/106495685/175858967-fc5162da-89db-4a2e-b61a-c4cf5a11fabd.PNG">
+
+## Election-Audit Summary:
+This script does very well for this specific audit, but if you wanted to inclue different data or additional data it could be easily modified. Right now the filters for this script are curently county and candidates, but if you wanted to include more demographics it would be a simple addition. Additonally, you could modify it to see what candidate recived a specific perentage by county. This would show you who was most popular based of a specific region of the state. There are seberal ways this code could be modified and improved, but it is a sturdy script with plenty of playroom.
+
+
